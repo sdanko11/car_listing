@@ -1,0 +1,15 @@
+<%= simple_form_for @car do |f| %>
+  <%= f.input :name label: 'Name' %>
+  <%= f.input :color label: 'Color' %>
+  <%= f.input :year label: 'Year' %>
+  <%= f.input :mileage label: 'Miles' %>
+  <%= f.input :description label: 'Description'%>
+  <%= f.submit %>
+<% end %>
+
+<!-- 
+    t.string   "name",        null: false
+    t.string   "color",       null: false
+    t.integer  "year",        null: false
+    t.integer  "mileage",     null: false
+    t.string   "description" -->

@@ -47,6 +47,8 @@ group :development do
   gem "quiet_assets"
 end 
 
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
